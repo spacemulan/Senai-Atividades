@@ -1,0 +1,45 @@
+body{
+    background: url('/images/livingforest.jpg');
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color:rgb(238, 191, 36);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+hr{
+    width: 50%;
+    height: 20px;
+    background: rgb(161, 151, 117);
+    border: none;
+    outline: none;
+}
+p{
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+    color:rgb(240, 240, 240);
+}
+.kuailiang{
+    margin: auto;
+    width: fit-content;
+}
+img{
+    height: 300px;
+}
+marquee{
+    width: 50%;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+  }
+  #mkvid{
+    width: 30%;
+    margin: auto;
+    display: block;
+}

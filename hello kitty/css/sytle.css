@@ -1,0 +1,45 @@
+body{
+    background: url('/imagens/bgimage2.jpg');
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+hr{
+    width: 50%;
+    height: 20px;
+    background: pink;
+    border: none;
+    outline: none;
+}
+p{
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+    color:rgb(228, 107, 127);
+}
+.fotos{
+    margin: auto;
+    width: fit-content;
+}
+img{
+    height: 300px;
+}
+marquee{
+    width: 50%;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+  }
+  #hkvid{
+    width: 30%;
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background: linear-gradient(darkcyan,darkblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa{
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.caixa button{
+    width: 120px;
+    background: darkcyan;
+    color: yellow;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
