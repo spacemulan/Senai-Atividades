@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="caixa">
+       <form action="saude.php" method="post">
+        
+        <span>Nome: </span>
+        <input type="text" name="nome" required id="nome">
+        <br>
+        <div class="pesos">
+        <span>Peso: </span>
+        <input type="number" name="peso" required id="nome">
+        <br>
+        </div>
+        <div class="alt">
+        <span>Altura: </span>
+        <input type="text" name="altura" required id="nome">
+        <br>
+        </div>
+        <div class="hipert">
+        <span>Hipertenso: </span>
+        <br>
+        <input type="radio" name="hiper" value="sim">
+        <span> Sim</span>
+        <input type="radio" name="hiper" value="nao">
+        <span> Não</span>
+        <br>
+        </div>
+        <div class="botao">
+        <button type="submit"><b>Analisar Saúde</b></button>
+            </div>
+    </form>
+    </div>
+</body>
+</html>

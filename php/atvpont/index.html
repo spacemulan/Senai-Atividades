@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="caixa">
+        <form action="salario.php" method="post">
+    <div class="Nome">
+        <span>Nome: </span>
+        <input type="text" name="nome" id="escrever" required>
+    </div>
+        <div class="Filhos">
+            <span>Quantidade de filhos: </span>
+            <input type="number" name="filhoss" id="escrever" required>
+        </div>
+        <div class="escola">
+            <span>Escolaridade: </span>
+            <select name="lista" required id="escrever">
+                <option value="">Escolha sua Escolaridade</option>
+                <option value="fundamental">Ensino fundamental</option>
+                <option value="medio">Ensino médio</option>
+                <option value="superior">Ensino Superior</option>
+                <option value="especialista">Especialista</option>
+                <option value="mestrado">Mestrado</option>
+                <option value="doutorado">Doutorado</option>
+            </select>
+        </div>
+        <div class="cargos">
+            <span>Cargo:</span>
+            <select name="CARGOS" required id="escrever">
+                <option value="">Escolha seu cargo</option>
+                <option value="professor">Professor</option>
+                <option value="coordenador">Coordenador</option>
+                <option value="superintendente">Superintendente</option>
+                <option value="diretor">Diretor</option>
+            </select>
+        </div>
+        <div class="dinheiro">
+            <span>Salário: </span>
+            <input type="number" name="salarios" required id="escrever">
+        </div>
+        <div class="botao">
+        <button type="submit"><b>Enviar</b></button>
+            </div>
+    </form>
+    </div>
+</body>
+</html>

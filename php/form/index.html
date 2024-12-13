@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="central">
+    <h1>Formulario</h1>
+    <form action="cad.php" method="post">
+    <br>
+    <span>Nome</span>
+    <input type="text" name="nome" required>
+    <br>
+    <div class="btnescola">
+    <span>Escolaridade</span>
+        <select name="lista" required >
+            <option value="">Escolha sua escolaridade</option>
+            <option value="Fundamental">Ensino Fundamental</option>
+            <option value="Médio">Ensino Médio</option>
+            <option value="Superior">Ensino Superior</option>
+        </select>
+    </div>    
+    <br>
+        <span>Gênero</span>
+        <input type="radio" name="genero" value="M">
+        <span>M</span>
+        <input type="radio" name="genero" value="F">
+        <span>F</span>
+        <input type="radio" name="genero" value="O">
+        <span>Outro</span>
+        <br id="espacamento">
+          <span>Conhecimentos</span>
+    <br>
+    <textarea name="coment" id="" cols="40"></textarea>
+    <br>
+    <button type="submit">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>
