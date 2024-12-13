@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Meu Site de Animes - Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+        }
+        
+        header {
+            background-color: #E91E63;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 500px;
+        }
+        
+        form input[type="submit"] {
+            background-color: #E91E63;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            
+        }
+
+        footer{
+            background-color: #C2185B;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="/">Meu Site de Animes</a></h1>
+    </header>
+    
+    <main>
+        
+        <form>
+            <fieldset>
+            <legend>Cadastro</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+                    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+                    
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required><br>
+            
+            <input type="submit" value="Cadastrar">
+        </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Meu Site de Animes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ 
+    <title>Meu Site de Animes</title>
+            <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1><a href="/">Meu Site de Animes</a></h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <input type="submit" value="Buscar">
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Personagens</a></li>
+            <li><a href="titulo.html" target="_self">Animes</a></li>
+            <li><a href="cadastro.html" target="_self">Cadastro</a></li>
+            <li><a href="login.html" target="_self">Login</a></li>
+        </ul>
+    </nav>
+    <img src="DREAMS.png" id="banner">
+    
+    <main>
+        <audio controls autoplay muted>
+            <source src="naruto.mp3" type="audio/mpeg" >
+            Seu navegador não suporta a reprodução de áudio.
+          </audio>
+        
+        <section>
+            <div class="titulo">
+            <h2>Animes</h2>
+            </div>
+            <div class="lance">
+                <img src="lancamentos/chainsaw.jpg" id="animeslance" >
+                <img src="lancamentos/fmab.jpg" id="animeslance">
+                <img src="lancamentos/jjba.jpg" id="animeslance">
+            </div>
+            <br>
+            <div class="lance">
+                <img src="lancamentos/tokyomew.jpg" id="animeslance">
+                <img src="lancamentos/undead.jpg" id="animeslance">
+                <img src="lancamentos/yona.jpg" id="animeslance">
+            </div>
+        </section>
+        
+        <section>
+            <div class="titulo">
+            <h2>Personagens</h2>
+            </div>
+            <div class="gallery">
+                <img src="galeria/asa.jpg" alt="Asa mitaka de Chainsawman" class="gallery-image">
+                <img src="galeria/ichigo.jpg" alt="Mew ichigo de Tokyo mew mew" class="gallery-image">
+                <img src="galeria/jolyne.jpg" alt="Jolyne Kujo de JJBA" class="gallery-image">
+                <img src="galeria/yona.png" alt="Yona de Yona of the dawn" class="gallery-image">
+                <button class="prev">◀</button>
+                <button class="next">▶</button>
+        </section>
+        
+        <form>
+            <h2>Mande Sua Mensagem</h2>
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Digite sua mensagem aqui..." rows="4"></textarea><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Meu Site de Animes. Todos os direitos reservados.</p>
+    </footer>
+    <script src="pag1.js"></script>
+</body>
+</html>
